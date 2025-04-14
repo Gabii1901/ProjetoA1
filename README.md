@@ -1,4 +1,4 @@
-# Projeto A1 - Sistema de Cadastro de Usuários e Veículos (PHP) - Gabriela Demossi
+# Projeto A1 - Sistema de Cadastro de Usuários (PHP) - Gabriela Demossi
 
 ## 📚 Sobre o projeto
 Projeto desenvolvido para a atividade A1, com aplicação dos conteúdos aprendidos tanto em aula quanto com alguns tutoriais do youtube.
@@ -14,36 +14,44 @@ O sistema inclui:
 
 ## 🛠️ Tecnologias Utilizadas
 - PHP 7.4+
-- MySQL
 - CSS3
 
 ---
 
 ## ⚙️ Como executar o projeto
 
-1. Clone o repositório:
-git clone https://github.com/seu-usuario/projeto-a1.git
+1. Instale um servidor local (recomendado XAMPP, WAMP ou Laragon).
 
+2. Coloque o projeto na pasta `htdocs` (ou equivalente):
 
-2. Configure o banco de dados:
-- Crie um banco `projeto_a1`.
-- Execute o script `projeto_a1.sql` para criar as tabelas.
+3. Acesse pelo navegador: http://localhost/projeto-a1/login.php
+---
 
-3. Configure a conexão:
-- Ajuste o arquivo `db.php` com as suas credenciais de acesso ao banco de dados.
-
-4. Rode o projeto em um servidor local (XAMPP, WAMP, Laragon, etc).
+4. Você poderá:
+- Cadastrar novos usuários.
+- Fazer login usando o email e senha cadastrados.
+- Ser redirecionado para a área logada (Dashboard).
+- Fazer logout.
 
 ---
 
 ## 📋 Funcionalidades
 
-- **Cadastro de Usuários: Cadastro de novos usuários com senha criptografada.**
-- **Login e Sessões: Controle de login com manutenção de sessão segura.**
-- **Cadastro de Veículos: Usuários podem cadastrar veículos no sistema.**
-- ** Visualização Global de Veículos: Todos os veículos cadastrados ficam disponíveis para todos os usuários visualizarem.**
-- **Proteção de Páginas: Apenas usuários logados têm acesso às áreas restritas.**
-- **Logout: Encerramento seguro da sessão.**
+- **Cadastro de Usuários:**
+- Formulário para nome, email e senha.
+- Validação e sanitização de dados.
+- Criação de objetos da classe `Usuario`.
+
+- **Login de Usuários:**
+- Verificação de credenciais dentro de um array.
+- Login utilizando sessão PHP.
+- Criação opcional de cookies para manter sessão ativa.
+
+- **Área Logada (Dashboard):**
+- Exibição de uma saudação personalizada para o usuário logado.
+
+- **Logout:**
+- Destruição da sessão e remoção do cookie, encerrando o acesso.
 
 ## 🎨 Estilo Visual
 
@@ -55,5 +63,4 @@ git clone https://github.com/seu-usuario/projeto-a1.git
 
 ## 📚 Referências
 
-Como conectar PHP ao banco de dados MYSQL - ATUALIZADO 2022 - Zero Bugs - Programação em Tutorial
 Sistema de Cadastro/Login com PHP - Gustavo Neitzke
