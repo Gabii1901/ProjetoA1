@@ -15,6 +15,7 @@ O sistema inclui:
 ## 🛠️ Tecnologias Utilizadas
 - PHP 7.4+
 - CSS3
+- HTML5
 
 ---
 
