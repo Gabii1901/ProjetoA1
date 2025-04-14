@@ -27,7 +27,7 @@ git clone https://github.com/seu-usuario/projeto-a1.git
 
 2. Configure o banco de dados:
 - Crie um banco `projeto_a1`.
-- Execute o script `banco.sql` para criar as tabelas.
+- Execute o script `projeto_a1.sql` para criar as tabelas.
 
 3. Configure a conexão:
 - Ajuste o arquivo `db.php` com as suas credenciais de acesso ao banco de dados.
