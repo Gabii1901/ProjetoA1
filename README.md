@@ -56,8 +56,8 @@ O sistema inclui:
 
 ## 🎨 Estilo Visual
 
-- **Azul (#007BFF) para elementos principais.**
-- **Verde (#28a745) para botões de sucesso.**
+- **Azul para elementos principais.**
+- **Verde para botões de sucesso.**
 - **Branco para fundo e campos de entrada.**
 - **Layout simples e responsivo.**
 
