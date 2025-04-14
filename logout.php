@@ -1,9 +1,7 @@
 <?php
-session_start();
-session_destroy();
-
-setcookie("usuario_logado", "", time() - 3600, "/");
-
+require_once 'classes/Sessao.php';
+Sessao::iniciar();
+Sessao::destruir();
 header("Location: login.php");
 exit();
 ?>
