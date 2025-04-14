@@ -1,4 +1,4 @@
-# Projeto A1 - Sistema de Cadastro de Usuários e Veículos (PHP)
+# Projeto A1 - Sistema de Cadastro de Usuários e Veículos (PHP) - Gabriela Demossi
 
 ## 📚 Sobre o projeto
 Projeto desenvolvido para a atividade A1, com aplicação dos conteúdos aprendidos tanto em aula quanto com alguns tutoriais do youtube.
