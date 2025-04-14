@@ -53,4 +53,7 @@ git clone https://github.com/seu-usuario/projeto-a1.git
 - **Layout simples e responsivo.**
 
 
+## 📚 Referências
 
+Como conectar PHP ao banco de dados MYSQL - ATUALIZADO 2022 - Zero Bugs - Programação em Tutorial
+Sistema de Cadastro/Login com PHP - Gustavo Neitzke
