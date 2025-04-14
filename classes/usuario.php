@@ -27,5 +27,10 @@ class Usuario
     {
         return $this->senha;
     }
+
+    public function autenticar($email, $senha)
+    {
+        return $this->email === $email && password_verify($senha, $this->senha);
+    }
 }
 ?>
