@@ -7,7 +7,6 @@ O sistema inclui:
 - Cadastro e Login de Usuários
 - Sessões para controle de acesso
 - Segurança aplicada (validação de dados e criptografia de senha)
-- Cadastro de Veículos atrelado ao usuário logado
 - Estilização com CSS
 
 ---
